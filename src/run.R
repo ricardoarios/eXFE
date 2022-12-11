@@ -178,5 +178,8 @@ colnames(output)<-c('C1(train)', 'C2(train)', 'C3(train)',
 		    'C2(Rules)', 'C3(Rules)', 'C1(Test)','C2(Test)', 
 		    'C3(Test)', 'eXFE', 'Best (Train)')
 
-output %>% xtable::xtable()
+# To print results as latex table:
+#output %>% xtable::xtable()
+
+print(output)
 
