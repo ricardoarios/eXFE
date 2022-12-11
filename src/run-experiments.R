@@ -1,3 +1,33 @@
+##################################################################################
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# 
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+# This code is released as part of the manuscript
+# “eXplainable Ensemble Strategy using distinct and restrict learning biases: 
+#      A Case Study on the Brazilian Forest”, by Tatiane Rios, Ricardo Rios, 
+#      and Rodrigo Mello (Applied Soft Computing, 2022).
+#
+# Code used to run our initial 
+#
+# Date: December, 2020
+#
+# Developers:   Ricardo Rios, 
+#               Tatiane Nogueira, 
+#               Rodrigo Mello
+#
+##################################################################################
+
+
 # initial setup...
 rm(list=ls())
 
@@ -24,12 +54,10 @@ source(paste(sep="", get.wd, "/src/fuzzy-ensemble/ensemble-prediction.R"))
 source(paste(sep="", get.wd, "/src/fuzzy-ensemble/plot-bias.R"))
 
 #--------------------------------------------------------------------------------------
-#loading dataset and defining the test label(rotulo)
-#c(8,9,11,12,13,14)
-set.seed(4561) #-8
-#set.seed(4561254) #-9 11 12 
-#set.seed(9561254) #-13
-#set.seed(9561254) #-14
+# loading dataset and defining the test label(rotulo)
+# c(8,9,11,12,13,14)
+# making sure we're gonna get the same results (reproducibility)
+set.seed(4561)
 rotulo=14
 k=1
 #--------------------------------------------------------------------------------------
