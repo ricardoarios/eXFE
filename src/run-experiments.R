@@ -17,7 +17,7 @@
 #      A Case Study on the Brazilian Forest”, by Tatiane Rios, Ricardo Rios, 
 #      and Rodrigo Mello (Applied Soft Computing, 2022).
 #
-# Code used to run our initial 
+# Code used to run examples that support our hypothesis.
 #
 # Date: December, 2020
 #
