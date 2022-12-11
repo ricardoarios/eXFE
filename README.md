@@ -33,13 +33,6 @@ You can also open R and run:
 ```Prolog
 source("src/run-experiments.R")
 ```
-
-To see the produced output, just type:
-
-```Prolog
-output
-```
-
 In this code, the prediction ensemble was created combining three classifers to illustrate our contribution. Users can modify it to better address their applications.
 
 If you find any issues with the code, please contact us: ricardoar@ufba.br.
