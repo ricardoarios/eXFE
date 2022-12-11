@@ -9,7 +9,7 @@ eXFE innovates ensemble strategies by explaining and exploring distinct, restric
 
 <img align="right" src="images/eXFE.png">
 
-A full discussion about eXFE is found in the manuscript <a href="#" target="_blank">“eXplainable Ensemble Strategy using distinct and restrict learning biases: A Case Study on the Brazilian Forest”</a>, by Tatiane Rios, Ricardo Rios, and Rodrigo Mello (Applied Soft Computing, 2022).
+A detailed discussion about eXFE is found in the manuscript <a href="#" target="_blank">“eXplainable Ensemble Strategy using distinct and restrict learning biases: A Case Study on the Brazilian Forest”</a>, by Tatiane Rios, Ricardo Rios, and Rodrigo Mello (Applied Soft Computing, 2022).
 
 The complete dataset was published on <a href="https://data.mendeley.com/datasets/9x62992sw6/2" target="_blank">Rios, R., Nogueira, T., Palma, G., and Mello, R., 2019. Brazilian forest dataset. DOI: 10.17632/9x62992sw6.2.</a>.
 
