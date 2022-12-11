@@ -24,12 +24,12 @@ Examples using traditional ensembles (XGBoost and Stacking) can be found at: "/s
 An example of our results can be found by running the following source code:
 
 ```Prolog
-Rscript src/run-all.R
+Rscript src/run-experiments.R
 ```
 You can also open R and run:
 
 ```Prolog
-source("src/run-all.R")
+source("src/run-experiments.R")
 ```
 
 In this code, the prediction ensemble was created combining three classifers to illustrate our contribution. Users can modify it to better address their applications.
