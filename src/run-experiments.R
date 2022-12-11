@@ -26,8 +26,6 @@
 #               Rodrigo Mello
 #
 ##################################################################################
-
-
 # initial setup...
 rm(list=ls())
 
@@ -58,8 +56,7 @@ source(paste(sep="", get.wd, "/src/fuzzy-ensemble/plot-bias.R"))
 # c(8,9,11,12,13,14)
 # making sure we're gonna get the same results (reproducibility)
 set.seed(4561)
-rotulo=14
-k=1
+rotulo=8
 #--------------------------------------------------------------------------------------
 
 ############################# 
@@ -169,12 +166,17 @@ for(k in 1:10){
   ####
 }
 
-cbind(matrix(train.validation, ncol=3, byrow = T), 
-      matrix(numb.inst.by.class, ncol=3, byrow = T),
-      numb.rules.by.class,
-      matrix(class.final.result, ncol=4, byrow = T), 
-      max.class.index) %>% xtable::xtable()
-ballance<-classes[,rotulo] %>% table()
+output<- cbind(matrix(train.validation, ncol=3, byrow = T), 
+	       matrix(numb.inst.by.class, ncol=3, byrow = T),
+	       numb.rules.by.class,
+	       matrix(class.final.result, ncol=4, byrow = T), 
+	       max.class.index)
 
 
+colnames(output)<-c('C1(train)', 'C2(train)', 'C3(train)', 
+		    'C1(Inst)', 'C2(Inst)', 'C3(Inst)', 'C1(Rules)', 
+		    'C2(Rules)', 'C3(Rules)', 'C1(Test)','C2(Test)', 
+		    'C3(Test)', 'eXFE', 'Best (Train)')
+
+output %>% xtable::xtable()
 
