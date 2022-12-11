@@ -19,6 +19,8 @@ The organization of the material is:
 > - **/src** - contains the eXFE source code.
 > - **/results** - you can find some results and the pre-trained classification models in this folder.
 
+Examples using traditional ensembles (XGBoost and Stacking) can be found at: "/src/notebooks".
+
 An example of our results can be found by running the following source code:
 
 ```Prolog
