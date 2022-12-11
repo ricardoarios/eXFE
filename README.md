@@ -2,11 +2,12 @@
 
 ### Thanks for your interest in using eXFE.
 
-<img align="right" src="images/eXFE.png">
 
 Supervised learning algorithms consider different learning biases from the universe of all admissible functions to induce classifiers. When using ensembles, one takes advantage of different biases typically built from the same algorithm to combine complementary classifiers into a single model, such as Random Forest, that builds up several trees from different attributes and examples.
 
-eXFE innovates ensemble strategies by explaining and exploring distinct, restrict, and complementary biases from different algorithms. Multi-bias classifiers are combined using Fuzzy rules to execute symbolic reasoning and explain how each learning bias contributes to the final classification results.
+eXFE innovates ensemble strategies by explaining and exploring distinct, restrict, and complementary biases from different algorithms. Multi-bias classifiers are combined using Fuzzy rules to execute symbolic reasoning and explain how each learning bias contributes to the final classification results. The follwing figure illustrates how eXFE works:
+
+<img align="right" src="images/eXFE.png">
 
 A full discussion about eXFE is found in the manuscript <a href="#" target="_blank">“eXplainable Ensemble Strategy using distinct and restrict learning biases: A Case Study on the Brazilian Forest”</a>, by Tatiane Rios, Ricardo Rios, and Rodrigo Mello (Applied Soft Computing, 2022).
 
